@@ -1,0 +1,66 @@
+:root { 
+  --mine-shaft: #2f2f2f;
+  --olive: #5b7c00;
+  --sunglo: #ed6a5e;
+ 
+  --font-size-l: 13px;
+  --font-size-m: 12px;
+  --font-size-s: 10px;
+  --font-size-xl: 14px;
+  --font-size-xxl: 15px;
+  --font-size-xxxl: 17px;
+  --font-size-xxxxl: 40px;
+ 
+  --font-family-nanumsquare: "NanumSquare", Helvetica;
+  --font-family-nanumsquare-bold: "NanumSquare-Bold", Helvetica;
+  --font-family-nanumsquare-extrabold: "NanumSquare-ExtraBold", Helvetica;
+  --font-family-nanumsquare-regular: "NanumSquare-Regular", Helvetica;
+  --font-family-simkyungha-regular: "SimKyungha-Regular", Helvetica;
+}
+.nanumsquare-regular-normal-mine-shaft-12px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-nanumsquare-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.nanumsquare-bold-olive-12px {
+  color: var(--olive);
+  font-family: var(--font-family-nanumsquare-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.nanumsquare-bold-olive-15px {
+  color: var(--olive);
+  font-family: var(--font-family-nanumsquare-bold);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.nanumsquare-bold-mine-shaft-15px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-nanumsquare-bold);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.nanumsquare-extra-extra-bold-olive-12px {
+  color: var(--olive);
+  font-family: var(--font-family-nanumsquare-extrabold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.nanumsquare-extra-extra-bold-olive-13px {
+  color: var(--olive);
+  font-family: var(--font-family-nanumsquare-extrabold);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 800;
+}
